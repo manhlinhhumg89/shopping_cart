@@ -1,0 +1,27 @@
+{% include './layout/header.html' %}
+{{title}}
+<h1>Trang thai dang nhap:{{login}}</h1>
+<h1>Ten dang nhap: {{user.email}}</h1>
+<h1>Tong tien: {{total}}</h1>
+<h1>User_id:{{user_id}}</h1>
+<table class="table cart-table">
+    <thead>
+        <tr>
+            <th>STT</th>
+            <th colspan="4">Ten sach</th>
+            <th>Gia</th>
+            <th>So luong</th>
+            <th>Thanh tien</th>
+        </tr>
+    </thead>
+    <tfoot>
+        <tr>
+            <th colspan="7">
+                <td colspan="7">
+                    <a href="/" name="" class="btn btn-success" role="button">Tiếp tục mua hàng</a>
+                    <a href="/huy-don-hang" name="capnhat" class="btn btn-danger" role="button">Hủy đơn hàng</a>
+                 </td>
+            </th>
+        </tr>
+    </tfoot>
+</table>

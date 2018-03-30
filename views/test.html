@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{title}}</title>
+</head>
+<body>
+{% if messages.success %}
+<div class="alert alert-danger">{{ messages.success }}</div>
+{% endif %}
+<h1>Dang ki thanh cong</h1>
+<h1>login:{{login}}</h1>
+<h1>user: {{user}}</h1>
+<a href="/">Quay lai trang chu</a>
+</body>
+</html>
